@@ -1,0 +1,6 @@
+../Core/Src/slip.c:23:34:peripheral_read	24	static
+../Core/Src/slip.c:28:34:peripheral_write	24	static
+../Core/Src/slip.c:33:20:SLIP_receive_data	24	static
+../Core/Src/slip.c:58:20:SLIP_receive_packet	24	static
+../Core/Src/slip.c:85:20:SLIP_send	32	static
+../Core/Src/slip.c:122:20:SLIP_send_delimiter	8	static

@@ -1,0 +1,4 @@
+../Core/Src/md5_hash.c:58:6:MD5Init	16	static
+../Core/Src/md5_hash.c:73:6:MD5Update	32	static
+../Core/Src/md5_hash.c:122:6:MD5Final	24	static
+../Core/Src/md5_hash.c:180:13:MD5Transform	24	static

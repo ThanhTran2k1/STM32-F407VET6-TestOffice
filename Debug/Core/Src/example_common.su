@@ -1,0 +1,5 @@
+../Core/Src/example_common.c:63:6:get_example_binaries	16	static
+../Core/Src/example_common.c:114:6:get_example_ram_app_binary	16	static
+../Core/Src/example_common.c:126:20:connect_to_target	32	static
+../Core/Src/example_common.c:159:20:flash_binary	48	static
+../Core/Src/example_common.c:213:20:load_ram_binary	112	dynamic

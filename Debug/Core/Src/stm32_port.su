@@ -1,0 +1,11 @@
+../Core/Src/stm32_port.c:61:13:serial_debug_print	16	static
+../Core/Src/stm32_port.c:67:20:loader_port_write	32	static
+../Core/Src/stm32_port.c:83:20:loader_port_read	32	static
+../Core/Src/stm32_port.c:100:6:loader_port_stm32_init	16	static
+../Core/Src/stm32_port.c:112:6:loader_port_enter_bootloader	8	static
+../Core/Src/stm32_port.c:121:6:loader_port_reset_target	8	static
+../Core/Src/stm32_port.c:129:6:loader_port_delay_ms	16	static
+../Core/Src/stm32_port.c:135:6:loader_port_start_timer	16	static
+../Core/Src/stm32_port.c:141:10:loader_port_remaining_time	24	static
+../Core/Src/stm32_port.c:148:6:loader_port_debug_print	16	static
+../Core/Src/stm32_port.c:153:20:loader_port_change_transmission_rate	16	static
