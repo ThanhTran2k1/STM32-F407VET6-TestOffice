@@ -383,7 +383,6 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 		  break;
 	  case 'M':
 		  SMV_Step = CHECK_RELAY;
-		  sad
 		  break;
 	  case '1':
 		  //

@@ -1,0 +1,6 @@
+slip.c:23:34:peripheral_read	1
+slip.c:28:34:peripheral_write	1
+slip.c:33:20:SLIP_receive_data	7
+slip.c:58:20:SLIP_receive_packet	8
+slip.c:85:20:SLIP_send	11
+slip.c:122:20:SLIP_send_delimiter	1

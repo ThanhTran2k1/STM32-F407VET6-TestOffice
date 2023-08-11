@@ -1,0 +1,4 @@
+md5_hash.c:58:6:MD5Init	1
+md5_hash.c:73:6:MD5Update	5
+md5_hash.c:122:6:MD5Final	2
+md5_hash.c:180:13:MD5Transform	1

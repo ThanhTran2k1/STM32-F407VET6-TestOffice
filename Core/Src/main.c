@@ -37,8 +37,8 @@
 /* USER CODE BEGIN PD */
 #define HIGHER_BAUDRATE 230400
 
-#define OFF_POWER	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET)
-#define ON_POWER	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET)
+#define OFF_POWER	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET)
+#define ON_POWER	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET)
 #define HOLD_ESP_IO0		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_4, GPIO_PIN_SET)
 #define RELEASE_ESP_IO0		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_4, GPIO_PIN_RESET)
 
@@ -52,7 +52,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
- ADC_HandleTypeDef hadc1;
+ADC_HandleTypeDef hadc1;
 
 CAN_HandleTypeDef hcan1;
 CAN_HandleTypeDef hcan2;
@@ -458,6 +458,10 @@ joystickbalanceAdcValue = ADC_GetValueFromChannel(ADC_CHANNEL_8);
 		  break;
 
 	  case START_FLASH_BOOTLOADER:
+		  break;
+	  case CHECK_RELAY:
+
+		  break;
 
 #ifdef _DEBUG_
 		  CDC_Transmit_FS((uint8_t*) "$FG           #\n\r", 17);
@@ -1041,6 +1045,8 @@ static void MX_USART6_UART_Init(void)
 static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
@@ -1069,6 +1075,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */

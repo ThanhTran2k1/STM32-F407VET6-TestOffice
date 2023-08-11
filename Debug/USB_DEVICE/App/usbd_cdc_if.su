@@ -3,5 +3,5 @@
 ../USB_DEVICE/App/usbd_cdc_if.c:226:15:CDC_DeInit_FS	4	static
 ../USB_DEVICE/App/usbd_cdc_if.c:240:15:CDC_Control_FS	16	static
 ../USB_DEVICE/App/usbd_cdc_if.c:321:15:CDC_Receive_FS	24	static
-../USB_DEVICE/App/usbd_cdc_if.c:465:9:CDC_Transmit_FS	24	static
-../USB_DEVICE/App/usbd_cdc_if.c:493:15:CDC_TransmitCplt_FS	32	static
+../USB_DEVICE/App/usbd_cdc_if.c:471:9:CDC_Transmit_FS	24	static
+../USB_DEVICE/App/usbd_cdc_if.c:499:15:CDC_TransmitCplt_FS	32	static

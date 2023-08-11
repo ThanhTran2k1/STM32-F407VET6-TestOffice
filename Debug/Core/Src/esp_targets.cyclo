@@ -1,0 +1,8 @@
+esp_targets.c:156:27:get_esp_target_data	1
+esp_targets.c:161:20:loader_detect_chip	5
+esp_targets.c:179:20:loader_read_spi_config	1
+esp_targets.c:185:24:efuse_word_addr	1
+esp_targets.c:191:23:adjust_pin_number	2
+esp_targets.c:197:27:spi_config_esp32	11
+esp_targets.c:227:27:spi_config_esp32xx	5
+esp_targets.c:245:6:encryption_in_begin_flash_cmd	3

@@ -1,0 +1,11 @@
+stm32_port.c:61:13:serial_debug_print	1
+stm32_port.c:67:20:loader_port_write	3
+stm32_port.c:83:20:loader_port_read	3
+stm32_port.c:100:6:loader_port_stm32_init	1
+stm32_port.c:112:6:loader_port_enter_bootloader	1
+stm32_port.c:121:6:loader_port_reset_target	1
+stm32_port.c:129:6:loader_port_delay_ms	1
+stm32_port.c:135:6:loader_port_start_timer	1
+stm32_port.c:141:10:loader_port_remaining_time	1
+stm32_port.c:148:6:loader_port_debug_print	1
+stm32_port.c:153:20:loader_port_change_transmission_rate	2

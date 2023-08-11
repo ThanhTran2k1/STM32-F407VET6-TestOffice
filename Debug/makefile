@@ -64,8 +64,8 @@ all: main-build
 main-build: 407ve.elf secondary-outputs
 
 # Tool invocations
-407ve.elf 407ve.map: $(OBJS) $(USER_OBJS) D:\Works\AHoan\Office\407ve\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "407ve.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Works\AHoan\Office\407ve\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="407ve.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+407ve.elf 407ve.map: $(OBJS) $(USER_OBJS) E:\AIOT\T8.2023\Office\407ve\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "407ve.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\AIOT\T8.2023\Office\407ve\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="407ve.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
